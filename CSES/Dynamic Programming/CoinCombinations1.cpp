@@ -9,7 +9,7 @@ using namespace std;
 #define MOD 1000000007;
 typedef long long ll;
 
-ll value[1000050];
+/* ll value[1000050];
 unordered_set<int> coins;
 
 ll solve(int x) {
@@ -32,5 +32,14 @@ int main() {
         coins.insert(k);
     }
     printf("%lld", solve(x));
+    return 0;
+} */
+
+int main() {
+    int n; cin >> n;
+    while(n--) {
+        cout << n << " ";
+    }
+
     return 0;
 }
