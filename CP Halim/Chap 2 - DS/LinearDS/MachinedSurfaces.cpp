@@ -16,7 +16,7 @@ int main() {
             for (int i = 1; i < 24; i++) {
                 if (bloc[i] == 'B') count++;
             }
-            if (m_num > count) m_num = count;
+            if (m_num < count) m_num = count;
             arr[j] = count;
         }
         if (m_num != 25) {
